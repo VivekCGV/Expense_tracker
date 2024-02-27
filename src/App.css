@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    95deg,
+    #2c7cf1 7.19%,
+    rgba(0, 209, 255, 0.5) 89.49%
+  );
+}
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 209, 255, 0.5);
+  box-shadow: inset 0 0 10px rgba(0, 209, 255, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: #010c1b;
+  border-radius: 10px;
+  background: radial-gradient(
+    circle farthest-corner at center center,
+    #b8e1fc 0%,
+    #231421 100%
+  );
+}
